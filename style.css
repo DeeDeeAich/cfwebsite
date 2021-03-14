@@ -3,5 +3,22 @@ nav {
 }
 
 body {
-	background-image: url("background.jpg");
+	background: linear-gradient(rgba(99, 97, 97, 0.45), rgba(99, 97, 97, 0.45)), url("background.jpeg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: white;
+}
+
+.h1 {
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.text {
+	align-items: center;
 }
