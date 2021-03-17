@@ -8,23 +8,49 @@ body {
 	background-size: cover;
 }
 
-.text {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-.text > button {
-	align-self: center;
-}
-
 hr {
 	color: #011375;
 	border-color: #011375;
 	max-width: 1000px;
 	border-width: 500px;
 	height: 8px;
+}
+
+.index-body {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+} 
+
+.btn {
+	margin-left: 39.35%;
+	background-color: #011375;
+	border-color: #011375;
+}
+
+.btn:hover {
+	background-color: #010938;
+	border-color: #010938;
+}
+
+.btn:click {
+	background-color: #010938;
+	border-color: #010938;
+}
+
+.about-body {
+	top-margin: -20%;
+	text-align: center;
+	list-style-position: inside;
+}
+
+.about-body a:link {
+	color: #011375;
+}
+
+.h1 {
+	font-size: 80px;
 }
