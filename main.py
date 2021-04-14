@@ -9,4 +9,4 @@ def index():
 def about():
     return render_template("about.html")
 
-app.run()
+server = app.server
