@@ -1,1 +1,1 @@
-web: gunicorn flask:server --log-level=debug
+web: gunicorn flask:app --log-level=debug
