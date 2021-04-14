@@ -9,4 +9,5 @@ def index():
 def about():
     return render_template("about.html")
 
-server = app.server
+if __name__ == "__main__":
+    app.run()
